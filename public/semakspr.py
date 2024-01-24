@@ -33,7 +33,7 @@ browser.get('https://mysprsemak.spr.gov.my/semakan/daftarPemilih')
 captcha_img = browser.find_element(By.ID, 'img_captcha')
 captcha_img.screenshot('public\\captchas\\captcha.png')
 
-api_key = "7ef16b5d6c0511db3fe5fc1300d45e66"
+api_key = ""
 
 solver = TwoCaptcha(api_key)
 
