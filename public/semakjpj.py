@@ -36,7 +36,7 @@ browser.find_element(By.ID, '_drivinglicense_WAR_JPJDXPPluginportlet_idNumber').
 captcha_img = browser.find_element(By.CLASS_NAME, 'captcha')
 captcha_img.screenshot('public\\captchas\\captcha.png')
 
-api_key = "7ef16b5d6c0511db3fe5fc1300d45e66"
+api_key = ""
 
 solver = TwoCaptcha(api_key)
 
