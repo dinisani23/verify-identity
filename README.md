@@ -26,7 +26,6 @@ This web application is designed to automatically detect forgery in Malaysian id
 
 
 ## Database Schema
-Ensure your MySQL database has the following tables:
 
 - input_data (for identity cards)
 - scraped_data (for storing identity card verification results)
